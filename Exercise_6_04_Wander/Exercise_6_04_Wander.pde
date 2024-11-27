@@ -12,7 +12,7 @@ boolean debug = true;
 
 void setup() {
   size(640,360);
-  wanderer = new Vehicle(width/2,height/2);
+  wanderer = new Vehicle(width/5,height/5);
 }
 
 void draw() {
@@ -24,5 +24,3 @@ void draw() {
 void mousePressed() {
   debug = !debug;
 }
-
-
